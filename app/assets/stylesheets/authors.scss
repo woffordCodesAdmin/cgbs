@@ -3,7 +3,7 @@
 }
 .navContainer{
     border:solid white;
-    border-width:.3px;
+    border-width:.2px;
     display:flex;
     justify-content: space-evenly;
 
@@ -69,10 +69,29 @@
 }
 .left{
     border:solid red;
+    border-width:.3px;
     width:60%;
 }
 .right{
     border:solid green;
+    border-width:.3px;
     padding:1em;
     width:40%;
+}
+.badgeBox{
+    border:solid grey;
+    height:auto;
+    padding:16px;
+}
+.serviceMini{
+    border:solid lightskyblue;
+    border-width:.3px;
+    margin:12px;
+    padding:22px;
+    height:130px;
+}
+
+.badge{
+    border:solid green;
+    height:90px;
 }
