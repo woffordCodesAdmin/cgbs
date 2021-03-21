@@ -1,0 +1,78 @@
+.logo{
+    height:50px;
+}
+.navContainer{
+    border:solid white;
+    border-width:.3px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.elNav{
+    text-align:center;
+    padding:8px;
+    height:40px;
+     color:white;
+}
+.elNav:hover{
+    text-align:center;
+    padding:8px;
+    height:40px;
+     color:greenyellow;
+}
+.proServContainer{
+    border:solid lightblue;
+    border-width:.3px;
+    display:flex;
+    height:22vh;
+    padding:8px;
+
+}
+.screen{
+    border:solid yellow;
+    width:70%;
+    border-width:.3px;
+}
+.menu{
+    border:solid salmon;
+    width:30%;
+    padding:6px;
+    border-width:.3px;
+}
+.itemSm{
+    border:solid lightblue;
+    border-width:.3px;
+    border-radius:22px;
+    text-align:center;
+    margin:8%;
+    color:white;
+}
+.itemSm:hover{
+    border:solid lightblue;
+    border-width:.3px;
+    border-radius:22px;
+    text-align:center;
+    margin:8%;
+    background-color:lightsalmon;
+    color:white;
+}
+.midTheme{
+    text-align:center;
+    color:lightblue;
+}
+.chipPic{
+    width:100%;
+}
+.curtainContainer{
+    display: flex;
+    padding:2em;
+}
+.left{
+    border:solid red;
+    width:60%;
+}
+.right{
+    border:solid green;
+    padding:1em;
+    width:40%;
+}
