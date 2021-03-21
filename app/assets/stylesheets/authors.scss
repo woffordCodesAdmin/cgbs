@@ -24,18 +24,18 @@
     border:solid lightblue;
     border-width:.3px;
     display:flex;
-    height:22vh;
+    height:auto;
     padding:8px;
 
 }
 .screen{
     border:solid yellow;
-    width:70%;
+    width:60%;
     border-width:.3px;
 }
 .menu{
     border:solid salmon;
-    width:30%;
+    width:40%;
     padding:6px;
     border-width:.3px;
 }
@@ -65,7 +65,7 @@
 }
 .curtainContainer{
     display: flex;
-    padding:2em;
+    padding:1em;
 }
 .left{
     border:solid red;
