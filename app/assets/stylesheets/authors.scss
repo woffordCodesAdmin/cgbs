@@ -85,13 +85,29 @@
 }
 .serviceMini{
     border:solid lightskyblue;
+    border-radius:23px;
     border-width:.3px;
     margin:12px;
-    padding:22px;
-    height:130px;
+    padding:32px;
+    height:auto;
 }
 
 .badge{
     border:solid green;
     height:90px;
+}
+.apply{
+    color:white;
+    border:solid white;
+    border-width:.3px;
+    text-align:center;
+    margin-top:1em;
+}
+.apply:hover{
+    color:white;
+    border:solid white;
+    border-width:.3px;
+    background-color:green;
+    text-align:center;
+    margin-top:1em;
 }
