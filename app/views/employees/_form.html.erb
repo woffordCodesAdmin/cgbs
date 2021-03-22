@@ -1,0 +1,132 @@
+<%= form_with(model: employee) do |form| %>
+  <% if employee.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(employee.errors.count, "error") %> prohibited this employee from being saved:</h2>
+
+      <ul>
+        <% employee.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :firstName %>
+    <%= form.text_field :firstName %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lastName %>
+    <%= form.text_field :lastName %>
+  </div>
+
+  <div class="field">
+    <%= form.label :phone %>
+    <%= form.text_field :phone %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :department %>
+    <%= form.text_field :department %>
+  </div>
+
+  <div class="field">
+    <%= form.label :job_title %>
+    <%= form.text_field :job_title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :address %>
+    <%= form.text_field :address %>
+  </div>
+
+  <div class="field">
+    <%= form.label :race %>
+    <%= form.text_field :race %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sex %>
+    <%= form.text_field :sex %>
+  </div>
+
+  <div class="field">
+    <%= form.label :credit_card %>
+    <%= form.text_field :credit_card %>
+  </div>
+
+  <div class="field">
+    <%= form.label :height %>
+    <%= form.text_field :height %>
+  </div>
+
+  <div class="field">
+    <%= form.label :marital_status %>
+    <%= form.text_field :marital_status %>
+  </div>
+
+  <div class="field">
+    <%= form.label :startDate %>
+    <%= form.text_field :startDate %>
+  </div>
+
+  <div class="field">
+    <%= form.label :license %>
+    <%= form.text_field :license %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lunchSpot %>
+    <%= form.text_field :lunchSpot %>
+  </div>
+
+  <div class="field">
+    <%= form.label :employeeBenft %>
+    <%= form.text_field :employeeBenft %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vehicle %>
+    <%= form.text_field :vehicle %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vyear %>
+    <%= form.text_field :vyear %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vmake %>
+    <%= form.text_field :vmake %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vmodel %>
+    <%= form.text_field :vmodel %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vcarDescr %>
+    <%= form.text_field :vcarDescr %>
+  </div>
+
+  <div class="field">
+    <%= form.label :vPlate %>
+    <%= form.text_field :vPlate %>
+  </div>
+
+  <div class="field">
+    <%= form.label :photo %>
+    <%= form.text_field :photo %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

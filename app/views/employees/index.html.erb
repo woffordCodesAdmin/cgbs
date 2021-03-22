@@ -1,0 +1,71 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Employees</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Department</th>
+      <th>Job title</th>
+      <th>Address</th>
+      <th>Race</th>
+      <th>Sex</th>
+      <th>Credit card</th>
+      <th>Height</th>
+      <th>Marital status</th>
+      <th>Startdate</th>
+      <th>License</th>
+      <th>Lunchspot</th>
+      <th>Employeebenft</th>
+      <th>Vehicle</th>
+      <th>Vyear</th>
+      <th>Vmake</th>
+      <th>Vmodel</th>
+      <th>Vcardescr</th>
+      <th>Vplate</th>
+      <th>Photo</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @employees.each do |employee| %>
+      <tr>
+        <td><%= employee.firstName %></td>
+        <td><%= employee.lastName %></td>
+        <td><%= employee.phone %></td>
+        <td><%= employee.email %></td>
+        <td><%= employee.department %></td>
+        <td><%= employee.job_title %></td>
+        <td><%= employee.address %></td>
+        <td><%= employee.race %></td>
+        <td><%= employee.sex %></td>
+        <td><%= employee.credit_card %></td>
+        <td><%= employee.height %></td>
+        <td><%= employee.marital_status %></td>
+        <td><%= employee.startDate %></td>
+        <td><%= employee.license %></td>
+        <td><%= employee.lunchSpot %></td>
+        <td><%= employee.employeeBenft %></td>
+        <td><%= employee.vehicle %></td>
+        <td><%= employee.vyear %></td>
+        <td><%= employee.vmake %></td>
+        <td><%= employee.vmodel %></td>
+        <td><%= employee.vcarDescr %></td>
+        <td><%= employee.vPlate %></td>
+        <td><%= employee.photo %></td>
+        <td><%= link_to 'Show', employee %></td>
+        <td><%= link_to 'Edit', edit_employee_path(employee) %></td>
+        <td><%= link_to 'Destroy', employee, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Employee', new_employee_path %>
