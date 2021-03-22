@@ -120,22 +120,22 @@
 background-color:green;
 }
 .cboard{
-    border:solid white;
+    // border:solid white;
     padding:8px;
     border-width:.3px;
     text-align:center;
-    color:salmon;
+    color:lightblue;
 }
 .comContainer{  
     border:solid lightblue;
     border-width:.3px;
     margin-top:45px;
-    padding:1em;
     width:100%;
+    background-color: black;
     display:flex;
 }
 .com_screen{
-    border:solid lightblue;
+    // border:solid lightblue;
     width:60%;
     border-width:.3px;
     text-align:center;
@@ -145,7 +145,6 @@ background-color:green;
 .com_controller{
     // border:solid orange;
     border-width:.3px;
-    width:20%;
     padding:1em;
     font-size:20px;
     text-align:center;
