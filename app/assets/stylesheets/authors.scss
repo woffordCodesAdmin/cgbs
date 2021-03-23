@@ -90,7 +90,7 @@
     // border:solid lightskyblue;
     border-radius:23px;
     border-width:.3px;
-    margin:22px;
+    margin:23px;
     padding:2px;
     height:auto;
 }
@@ -125,6 +125,10 @@
 .accordion-body{
     color:lemonchiffon;
 
+}
+.accordion-button{
+    background-color:black;
+    font-size:18px;
 }
 .vHub:hover{
 background-color:green;
