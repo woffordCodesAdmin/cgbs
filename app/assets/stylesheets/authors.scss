@@ -87,11 +87,11 @@
     padding:16px;
 }
 .serviceMini{
-    border:solid lightskyblue;
+    // border:solid lightskyblue;
     border-radius:23px;
     border-width:.3px;
-    margin:12px;
-    padding:8px;
+    margin:22px;
+    padding:2px;
     height:auto;
 }
 
@@ -106,6 +106,9 @@
     border-radius:22px;
     text-align:center;
     margin-top:1em;
+    width:100%;
+    padding:6px;
+    
 }
 .apply:hover{
     color:white;
@@ -115,6 +118,9 @@
     background-color:green;
     text-align:center;
     margin-top:1em;
+    width:100%;
+    padding:6px;
+    
 }
 .accordion-body{
     color:lemonchiffon;
