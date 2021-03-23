@@ -31,16 +31,17 @@
 <h1 style="color:lemonchiffon; text-align:center;" >Meet The Team</h1>
 
 <div class="empCard">
+    <% Employee.all.each do |e| %>
 
-        <% Employee.all.each do |e| %>
-          <h4 style="border:solid lightblue;text-align:center;border-width:.3px;">  <%= e.firstName%>   <%= e.lastName%></h4>
-            <div style="border:solid grey;border-width:.3px;margin:1em;height:200px;width:40%;"></div>
-         Job Title:    CGBS <%= e.job_title%> <br>
-         Department: <%= e.department%>
-      <h5 style="color:lemonchiffon;text-align:right;"> <%= e.address%></h5>
-            <h4 style="color:lightblue;text-align:right;"><%= e.phone%></h4>
-            <hr>
-        <%end%>
+    <h4 style="border:solid lightblue;text-align:center;background-color:lemonchiffon;color:black;border-width:.3px;">  <%= e.firstName%>   <%= e.lastName%></h4>
+    <div style="border:solid grey;border-width:.3px;height:200px;width:100%;"></div>
+
+    Job Title:    CGBS <%= e.job_title%> <br>
+    Department: <%= e.department%>
+
+    <h4 style="color:lightblue;text-align:right;"><%= e.phone%></h4>
+    <hr>
+    <%end%>        
 </div>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>  
