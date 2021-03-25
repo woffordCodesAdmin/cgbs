@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -10,13 +6,70 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="">
     </head>
-    <body>
+    <body style="font-family:serif;border:solid lightblue;border-width:.3px;background-color:black;height:700vh;">
+    <div class="navContainer">
+  <a href="/"><img class="logo"src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/163148802_4423789508906_1467717329119223013_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=730e14&_nc_ohc=gL1IpFFdX_IAX-yc6EF&_nc_ht=scontent-dfw5-2.xx&oh=4d1d20289371456e6ae3fdf8b921896f&oe=607A2C90"></a>
+      <a style="text-decoration:none;" href="/products"><div class="elNav">Products</div></a>
+   <a style="text-decoration:none;" href="/introspect"> <div class="elNav">n2rOspeX</div></a>
+    <a style="text-decoration:none;" href="/contact"><div class="elNav">e-Chat Room</div></a>
+</div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+
+<h1>Product Page</h1>
+
+    <div  class="toggler">Toggle Menu</div>
+    <div class="proContainer">
+        <div class="theater"></div>
+
+        <div class="menu2">
+            <p class="proLabel"> Mens </p>
+            <p class="proLabel"> Womens </p>
+            <p class="proLabel"> Kids </p>
+            <p class="proLabel"> Software  </p>
+            <p class="proLabel"> Accessories </p>
+            <p class="proLabel">Tutoring</p>
+        </div>
+
+    </div>
+        <div class="inventory">
+            <div class="itemShop"></div>
+            <div class="itemShop"></div>
+            <div class="itemShop"></div>
+            <div class="itemShop"></div>
+         </div>
+    <div class="inventory">
+            <div class="itemShop"></div>
+            <div class="itemShop"></div>
+            <div class="itemShop"></div>
+            <div class="itemShop"></div>
+         </div>
+         <div class="inventory">
+            <div class="itemShop"></div>
+            <div class="itemShop"></div>
+            <div class="itemShop"></div>
+            <div class="itemShop"></div>
+         </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script >
+
+        console.log($);
+            const toggleSidebar = () => {
+                $('.menu2').css("width:" , "40%");
+
+            }
         
-        <script src="" async defer></script>
+        
+        </script>
     </body>
 </html>

@@ -180,3 +180,79 @@ background-color:green;
 .phantomDiv{
     border:solid orange;
 }
+.proContainer{
+    height:auto;
+    border:solid purple;
+    border-width:.3px;
+    display:flex;
+    margin-bottom:33px;
+    padding:15px;
+}
+.menu2{
+    border:solid grey;
+    border-width:.3px;
+    width:20%;
+    color:lightblue;
+    text-align:center;
+    padding:6px;
+
+}
+.theater{
+    width:80%;
+    border:solid grey;
+    border-width:.3px;
+}
+.toggler{
+    border:solid white;
+    border-width:.3px;
+    margin:8px;
+    width:140px;
+    color:green;
+    border-radius:32px;
+    text-align:center;
+}
+.toggler:hover{
+    border:solid white;
+    border-width:.3px;
+    margin:8px;
+    width:140px;
+    color:green;
+    border-radius:32px;
+    text-align:center;
+    background-color:lemonchiffon;
+}
+.proLabel{
+    border:solid lime;
+    border-width:.3px;
+    margin-top:30%;
+    border-radius:23px;
+    padding:3px;
+}
+.proLabel:hover{
+    border:solid lime;
+    border-width:.3px;
+    margin-top:30%;
+    border-radius:23px;
+    padding:3px;
+    background-color:grey;
+}
+.inventory{
+    display: flex;
+    height:22vh;
+}
+.itemShop{
+    border:solid lime;
+    border-width:.3px;
+    margin:6px;
+    height:150px;
+    width:150px;
+}
+.itemShop:hover{
+    border:solid lime;
+    background-color:grey;
+    color:white;
+    border-width:.3px;
+    margin:6px;
+    height:150px;
+    width:150px;
+}
