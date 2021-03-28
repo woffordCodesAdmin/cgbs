@@ -181,9 +181,10 @@ background-color:green;
 .phantomDiv{
     // border:solid lightblue;
     border-width:.2px;
+    margin:8px;
     height:12vh;
     color:white;
-    font-size:23px;
+    font-size:18px;
     padding:22px;
     text-align:center;
 }
@@ -233,14 +234,14 @@ background-color:green;
     border-width:.3px;
     margin-top:30%;
     border-radius:23px;
-    padding:3px;
+    padding:8px;
 }
 .proLabel:hover{
     border:solid lightblue;
     border-width:.3px;
     margin-top:30%;
     border-radius:23px;
-    padding:3px;
+    padding:8px;
     background-color:grey;
 }
 .inventory{
