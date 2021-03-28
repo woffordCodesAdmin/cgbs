@@ -29,8 +29,9 @@
 
 }
 .screen{
-    border:solid yellow;
-    width:60%;
+    border:solid lightblue;
+    width:59%;
+    margin-right:1%;
     border-width:.3px;
     color:lemonchiffon;
     padding:12px;
@@ -178,11 +179,17 @@ background-color:green;
     margin-bottom:8px;
 }
 .phantomDiv{
-    border:solid orange;
+    // border:solid lightblue;
+    border-width:.2px;
+    height:12vh;
+    color:white;
+    font-size:23px;
+    padding:22px;
+    text-align:center;
 }
 .proContainer{
     height:auto;
-    border:solid purple;
+    border:solid lemonchiffon;
     border-width:.3px;
     display:flex;
     margin-bottom:33px;
@@ -194,7 +201,7 @@ background-color:green;
     width:30%;
     color:lightblue;
     text-align:center;
-    padding:6px;
+    padding:16px;
 
 }
 .theater{
@@ -222,14 +229,14 @@ background-color:green;
     background-color:lemonchiffon;
 }
 .proLabel{
-    border:solid lime;
+    border:solid lightblue;
     border-width:.3px;
     margin-top:30%;
     border-radius:23px;
     padding:3px;
 }
 .proLabel:hover{
-    border:solid lime;
+    border:solid lightblue;
     border-width:.3px;
     margin-top:30%;
     border-radius:23px;
@@ -241,18 +248,23 @@ background-color:green;
     height:22vh;
 }
 .itemShop{
-    border:solid lime;
+    border:solid lightblue;
     border-width:.3px;
     margin:6px;
     height:150px;
     width:150px;
 }
 .itemShop:hover{
-    border:solid lime;
+    border:solid lightblue;
     background-color:grey;
     color:white;
     border-width:.3px;
     margin:6px;
     height:150px;
     width:150px;
+}
+.card-body{
+    background-color:black;
+    color:lightblue;
+    border:solid lightblue;
 }
